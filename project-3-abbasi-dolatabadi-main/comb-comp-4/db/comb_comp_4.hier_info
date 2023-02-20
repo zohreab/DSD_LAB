@@ -1,0 +1,82 @@
+|comb_comp_4
+A[0] => A[0]~3.IN1
+A[1] => A[1]~2.IN1
+A[2] => A[2]~1.IN1
+A[3] => A[3]~0.IN1
+B[0] => B[0]~3.IN1
+B[1] => B[1]~2.IN1
+B[2] => B[2]~1.IN1
+B[3] => B[3]~0.IN1
+gt <= cascadable_1bit_comparator:comp_0.gt_out
+eq <= cascadable_1bit_comparator:comp_0.eq_out
+lt <= cascadable_1bit_comparator:comp_0.lt_out
+
+
+|comb_comp_4|cascadable_1bit_comparator:comp_3
+lt_in => lt_out~2.IN1
+eq_in => gt_out~0.IN1
+eq_in => eq_out~1.IN0
+eq_in => lt_out~0.IN1
+gt_in => gt_out~2.IN1
+a => gt_out~0.IN0
+a => eq_out~0.IN0
+a => lt_out~0.IN0
+b => eq_out~0.IN1
+b => lt_out~1.IN1
+b => gt_out~1.IN0
+lt_out <= lt_out~2.DB_MAX_OUTPUT_PORT_TYPE
+eq_out <= eq_out~1.DB_MAX_OUTPUT_PORT_TYPE
+gt_out <= gt_out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|comb_comp_4|cascadable_1bit_comparator:comp_2
+lt_in => lt_out~2.IN1
+eq_in => gt_out~0.IN1
+eq_in => eq_out~1.IN0
+eq_in => lt_out~0.IN1
+gt_in => gt_out~2.IN1
+a => gt_out~0.IN0
+a => eq_out~0.IN0
+a => lt_out~0.IN0
+b => eq_out~0.IN1
+b => lt_out~1.IN1
+b => gt_out~1.IN0
+lt_out <= lt_out~2.DB_MAX_OUTPUT_PORT_TYPE
+eq_out <= eq_out~1.DB_MAX_OUTPUT_PORT_TYPE
+gt_out <= gt_out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|comb_comp_4|cascadable_1bit_comparator:comp_1
+lt_in => lt_out~2.IN1
+eq_in => gt_out~0.IN1
+eq_in => eq_out~1.IN0
+eq_in => lt_out~0.IN1
+gt_in => gt_out~2.IN1
+a => gt_out~0.IN0
+a => eq_out~0.IN0
+a => lt_out~0.IN0
+b => eq_out~0.IN1
+b => lt_out~1.IN1
+b => gt_out~1.IN0
+lt_out <= lt_out~2.DB_MAX_OUTPUT_PORT_TYPE
+eq_out <= eq_out~1.DB_MAX_OUTPUT_PORT_TYPE
+gt_out <= gt_out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|comb_comp_4|cascadable_1bit_comparator:comp_0
+lt_in => lt_out~2.IN1
+eq_in => gt_out~0.IN1
+eq_in => eq_out~1.IN0
+eq_in => lt_out~0.IN1
+gt_in => gt_out~2.IN1
+a => gt_out~0.IN0
+a => eq_out~0.IN0
+a => lt_out~0.IN0
+b => eq_out~0.IN1
+b => lt_out~1.IN1
+b => gt_out~1.IN0
+lt_out <= lt_out~2.DB_MAX_OUTPUT_PORT_TYPE
+eq_out <= eq_out~1.DB_MAX_OUTPUT_PORT_TYPE
+gt_out <= gt_out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+

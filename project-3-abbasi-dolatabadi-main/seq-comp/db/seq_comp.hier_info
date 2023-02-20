@@ -1,0 +1,24 @@
+|seq_comp
+clk => R_ff2~0.IN1
+clk => S_ff2~0.IN0
+clk => R_ff1~0.IN1
+clk => S_ff1~0.IN0
+reset => Q_prim_ff2~1.IN0
+reset => temp_4_ff2~1.IN0
+reset => S_ff2~1.IN0
+reset => Q_prim_ff1~1.IN0
+reset => temp_4_ff1~1.IN0
+reset => S_ff1~1.IN0
+A => D_ff1~1.IN0
+A => D_ff1~0.IN0
+A => D_ff2~0.IN0
+A => D_ff2~1.IN0
+B => D_ff2~1.IN1
+B => D_ff2~0.IN1
+B => D_ff1~0.IN1
+B => D_ff1~1.IN1
+gt <= gt~0.DB_MAX_OUTPUT_PORT_TYPE
+eq <= eq~0.DB_MAX_OUTPUT_PORT_TYPE
+lt <= lt~0.DB_MAX_OUTPUT_PORT_TYPE
+
+
