@@ -1,0 +1,40 @@
+|main
+Close <= inst13.DB_MAX_OUTPUT_PORT_TYPE
+Out[0] <= counter_4:inst.Out[0]
+Out[1] <= counter_4:inst.Out[1]
+Out[2] <= counter_4:inst.Out[2]
+Out[3] <= counter_4:inst.Out[3]
+IN => counter_4:inst.Updown
+IN => inst5.IN0
+IN => inst17~1.IN0
+OUT1 => inst5.IN1
+Clk => counter_4:inst.Clk
+Clk => inst17.CLK
+Reset => inst4.IN0
+Open <= inst17.DB_MAX_OUTPUT_PORT_TYPE
+Ent => inst15.IN1
+T => inst15.IN2
+
+
+|main|counter_4:inst
+Out[0] <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+Out[1] <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+Out[2] <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+Out[3] <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+Clr => inst6.ACLR
+Clr => inst4.ACLR
+Clr => inst3.ACLR
+Clr => inst5.ACLR
+cnten => inst17.IN0
+cnten => inst12.IN0
+cnten => inst2.IN0
+cnten => inst22.IN0
+Updown => inst.IN0
+Updown => inst1.IN1
+Updown => inst9.IN1
+Clk => inst3.CLK
+Clk => inst4.CLK
+Clk => inst6.CLK
+Clk => inst5.CLK
+
+

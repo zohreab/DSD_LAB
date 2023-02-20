@@ -1,0 +1,62 @@
+Version 9.0 Build 132 02/25/2009 SJ Web Edition
+7
+3344
+OFF
+OFF
+OFF
+ON
+ON
+ON
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+main
+# storage
+db|hw2.(0).cnf
+db|hw2.(0).cnf
+# case_insensitive
+# source_file
+main.bdf
+6488e1e3c17a3229363768441e60f8ef
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# entity
+counter_4
+# storage
+db|hw2.(1).cnf
+db|hw2.(1).cnf
+# case_insensitive
+# source_file
+counter_4.bdf
+7275d31136f57e241542673d384f70e0
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+counter_4:inst
+}
+# macro_sequence
+
+# end
+# complete
+
