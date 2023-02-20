@@ -1,0 +1,156 @@
+Version 9.0 Build 132 02/25/2009 SJ Web Edition
+7
+3344
+OFF
+OFF
+OFF
+ON
+ON
+ON
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+isEqual
+# storage
+db|main.(1).cnf
+db|main.(1).cnf
+# case_insensitive
+# source_file
+isEqual.bdf
+c775d8198d5defcc6b1ad1b5230eef2
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+isEqual:inst1
+}
+# macro_sequence
+
+# end
+# entity
+calculateBCD
+# storage
+db|main.(2).cnf
+db|main.(2).cnf
+# case_insensitive
+# source_file
+calculateBCD.bdf
+fca25216203576fa44253b2d85428356
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+calculateBCD:inst4
+calculateBCD:inst2
+calculateBCD:inst3
+calculateBCD:inst7
+calculateBCD:inst5
+calculateBCD:inst6
+}
+# macro_sequence
+
+# end
+# entity
+lab1
+# storage
+db|main.(3).cnf
+db|main.(3).cnf
+# case_insensitive
+# source_file
+lab1.bdf
+d6157df438fc8cd3e885dcf695a4d
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+calculateBCD:inst4|lab1:inst
+calculateBCD:inst4|lab1:inst2
+calculateBCD:inst4|lab1:inst3
+calculateBCD:inst4|lab1:inst4
+calculateBCD:inst4|lab1:inst1
+calculateBCD:inst2|lab1:inst
+calculateBCD:inst2|lab1:inst2
+calculateBCD:inst2|lab1:inst3
+calculateBCD:inst2|lab1:inst4
+calculateBCD:inst2|lab1:inst1
+calculateBCD:inst3|lab1:inst
+calculateBCD:inst3|lab1:inst2
+calculateBCD:inst3|lab1:inst3
+calculateBCD:inst3|lab1:inst4
+calculateBCD:inst3|lab1:inst1
+calculateBCD:inst7|lab1:inst
+calculateBCD:inst7|lab1:inst2
+calculateBCD:inst7|lab1:inst3
+calculateBCD:inst7|lab1:inst4
+calculateBCD:inst7|lab1:inst1
+calculateBCD:inst5|lab1:inst
+calculateBCD:inst5|lab1:inst2
+calculateBCD:inst5|lab1:inst3
+calculateBCD:inst5|lab1:inst4
+calculateBCD:inst5|lab1:inst1
+calculateBCD:inst6|lab1:inst
+calculateBCD:inst6|lab1:inst2
+calculateBCD:inst6|lab1:inst3
+calculateBCD:inst6|lab1:inst4
+calculateBCD:inst6|lab1:inst1
+}
+# macro_sequence
+
+# end
+# entity
+check11
+# storage
+db|main.(4).cnf
+db|main.(4).cnf
+# case_insensitive
+# source_file
+check11.bdf
+8876d1465c7f98875524b1d575863398
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+check11:inst8
+}
+# macro_sequence
+
+# end
+# entity
+main
+# storage
+db|main.(0).cnf
+db|main.(0).cnf
+# case_insensitive
+# source_file
+main.bdf
+c5a6b8c2728e9b81daa48341952acd7
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# complete
+
